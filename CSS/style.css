@@ -1,0 +1,214 @@
+    /*
+    Main styles 
+    */
+    header,footer{
+        background-image: radial-gradient(lightgray,whitesmoke);
+    }
+    .fin{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: auto;
+        padding: 0 20px;
+        height: 100px;
+    }
+    .profile-imag{
+        width:100%;
+        display: flex;
+        flex-direction:row;
+        margin: auto;
+    }
+    body{
+        font-family: "Roboto",sans-serif;
+        height: 100%;
+        background-color: whitesmoke;
+    }
+    .name,.nav ul {
+        margin: auto;
+        text-align: center;
+    }
+    #text-two,.card-one{
+        margin-top: 2em;
+    }
+    .nav{
+        text-decoration: none;
+        list-style: none;
+        margin-top: 0.4em;
+        padding:5px;
+    }
+    .nav li {
+        background-color: white;
+        border: 3px solid transparent;
+        margin-top: 10px;
+    }
+    .last{
+        text-decoration: none;
+        list-style: none;
+        margin-top: 0.4em;
+        padding:5px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .nav {
+        
+        color:#797e83;
+        font-size: 1.125em;
+        text-align: center;
+        padding:.4rem;
+        margin-top:.4rem ;
+        border: 1px solid transparent;
+        display: block;
+    } 
+    .last{
+        
+        color:#797e83;
+        font-size: 1.125em;
+        text-align: center;
+        padding:.4rem;
+        margin-top:.4rem ;
+        border: 1px solid transparent;
+        display: block;
+    } 
+    .nav a:link{
+        color: black;
+    }
+    .nav a:visited{
+        color: black;
+    }
+    .nav a:hover{
+        color: blue;
+    }
+    .last a:link{
+        color: black;
+    }
+    .last a:visited{
+        color: black;
+    }
+    .last a:hover{
+        color: blue;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    .main-card{
+        text-align: center;
+        }
+    .Portfolio-img,.Portfolio-2img,.Portfolio-3img,.Portfolio-4img,.Portfolio-5img,.Portfolio-6img{
+        width:100%;
+    }
+
+
+    footer{
+        margin-top: -1em;
+        text-align: center;
+        margin-bottom: -1.1em;
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+    .test-z{
+        text-align: center;
+    }
+    .nav-2{
+        display: none;
+    }
+    .last-text{
+        text-align: center;
+    }
+/*
+ media queries 
+*/
+ @media (min-width: 768px) {
+     .nav li {
+        display: inline-block;
+        width: auto;
+        margin-right: 15px;
+        background-color: transparent;
+      }
+      .nav{
+          margin-bottom: -.1em;
+          padding-bottom: 2em;
+      }
+      .nav li:last-child{
+          margin-right: 0%;
+      }
+      .main-one{
+       background-image: radial-gradient(lightgray,whitesmoke);
+         display: flex;
+         flex-direction: row-reverse;
+         align-items: center;
+      }
+    .main-wrap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-grow: 1;
+    }  
+    .card-one{
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    .main-wrap .card-one{
+        margin-left: .2em;
+    }
+     .item{
+         flex-grow: 1;
+     }
+     #text-two{
+         width:100%;
+     }
+     .text-z{
+         align-self:flex-start;
+    }
+    .test-z {
+        align-self: flex-start;
+    }
+    
+    .nav-2{
+        display: flex;
+        flex-direction: row;
+        margin-right: 15px;
+    }
+    .top{
+        display: none;
+    }
+    .nav-2 li{
+        margin-left: 2em;
+    }
+}
+/*
+ media queries 
+*/
+@media (min-width: 1024px) {
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main-wrap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-one{
+        width: 30%;
+        flex-wrap: wrap;
+    }
+    .main-wrap .card-one{
+        margin-left: .4em;
+    }   
+    .fin{
+        border-top:2px dashed black ;
+    }
+    .nav-2 li{
+        margin-left: 2em;
+    }
+    .name{
+        margin-left: 0;
+    }
+
+}
